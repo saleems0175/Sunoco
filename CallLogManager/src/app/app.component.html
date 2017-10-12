@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Call Log Manager</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a routerLinkActive="active" [routerLink]="['/addCallLog']" >Add Call Log</a></li>
+        <li><a routerLinkActive="active" [routerLink]="['/searchCallLog']" >Search Call Log</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>  
